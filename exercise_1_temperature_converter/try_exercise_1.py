@@ -4,3 +4,5 @@ type = str(input("Do you want to convert it from Celsius to Fahrenheit or from F
 if type == ("Celsius to Fahrenheit"):
     converted_temperature = (1.8 * temperature + 32)
     print(f"Your temperature from Celsius to Fahrenheit is {converted_temperature}° Fahrenheit")
+elif type == ("Fahrenheit to Celsius"):
+    
