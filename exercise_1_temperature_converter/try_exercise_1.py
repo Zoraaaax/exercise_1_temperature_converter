@@ -9,3 +9,5 @@ elif type == ("Fahrenheit to Celsius"):
     converted_temperature = (temperature - 32) * 5 / 9
     print(f"Your temperature from Farenheit to Celsius is {converted_temperature}° Celsius")
 
+else:
+    print("Invalid conversion type. Please try again")
