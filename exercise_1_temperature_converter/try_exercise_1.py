@@ -6,3 +6,5 @@ if type == ("Celsius to Fahrenheit"):
     print(f"Your temperature from Celsius to Fahrenheit is {converted_temperature}° Fahrenheit")
 
 elif type == ("Fahrenheit to Celsius"):
+    converted_temperature = (temperature - 32) * 5 / 9
+    
